@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="611.0" prefWidth="812.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainMenu.ControllerMenu">
+   <children>
+      <Button layoutX="597.0" layoutY="24.0" mnemonicParsing="false" onAction="#BAction" prefHeight="52.0" prefWidth="191.0" text="you story" />
+      <Button fx:id="froggerB" layoutX="14.0" layoutY="225.0" mnemonicParsing="false" onAction="#GAction" prefHeight="67.0" prefWidth="191.0" text="brainstorm" />
+      <Label layoutX="14.0" layoutY="187.0" prefHeight="25.0" prefWidth="191.0" style="-fx-background-color: #6acc89;" text="Games" textFill="#000a03" />
+      <Button layoutX="165.0" layoutY="302.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="191.0" text="arithmetic"  />
+      <Button layoutX="273.0" layoutY="387.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="197.0" text="flappyBrainStorm" onAction="#FlappyAction" />
+      <Button layoutX="434.0" layoutY="471.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="204.0" text="brainstorm" />
+      <Label layoutX="174.0" layoutY="21.0" prefHeight="45.0" prefWidth="264.0" style="-fx-background-color: #6acc89;" text="where you are" textFill="#000a03" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="controlsfx-8.40.14">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/developing/Programming/Controlsfx/controlsfx-8.40.14.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/jfoenix-8.0.1.jar!/" />
+      <root url="jar://C:/Apps/derby/lib/derbyclient.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
