@@ -32,8 +32,11 @@ public class CollectionAddressBook implements AddressBook {
     }
 
     public void fillTestData() {
-        personList.add(new Person("Daria Vseman", "99123958421"));
-        personList.add(new Person("Max Vseman", "983123123912"));
+        personList.add(new Person("07.12.12 & Flappy", "3"));
+        personList.add(new Person("31.12.12 & Flappy", "4"));
+        personList.add(new Person("09.12.12 & Flappy", "6"));
+        personList.add(new Person("18.12.12 & Flappy", "8"));
+        personList.add(new Person("18.12.12 & arithmetic", "132"));
     }
 
     public ObservableList<Person> getPersonList() {

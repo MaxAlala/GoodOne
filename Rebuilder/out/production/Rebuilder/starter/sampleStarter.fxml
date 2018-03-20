@@ -3,26 +3,18 @@
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXPasswordField?>
 <?import com.jfoenix.controls.JFXTextField?>
-<?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="450.0" style="-fx-background-color: #F8E7D7;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="starter.ControllerStarter">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="450.0" style="-fx-background-color: #D6D4C8;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="starter.ControllerStarter">
    <children>
-      <AnchorPane layoutX="32.0" layoutY="8.0" prefHeight="584.0" prefWidth="387.0" style="-fx-background-color: #BCB08D;">
+      <AnchorPane layoutX="32.0" layoutY="8.0" prefHeight="584.0" prefWidth="387.0" style="-fx-background-color: #FFFDEB;">
          <children>
-            <JFXTextField fx:id="email" focusColor="#142861" layoutX="53.0" layoutY="229.0" prefHeight="30.0" prefWidth="288.0" promptText="Email" style="-fx-background-color: #625D55;" unFocusColor="#251818" AnchorPane.bottomAnchor="328.0" AnchorPane.rightAnchor="46.0" />
-            <JFXPasswordField fx:id="password" focusColor="#142861" layoutX="53.0" layoutY="279.0" prefHeight="31.0" prefWidth="288.0" promptText="Password" style="-fx-background-color: #625D55;" unFocusColor="BLACK" AnchorPane.bottomAnchor="278.0" AnchorPane.rightAnchor="46.0" />
-            <JFXButton layoutX="53.0" layoutY="323.0" mnemonicParsing="false" onAction="#requestDB" prefHeight="31.0" prefWidth="288.0" style="-fx-background-color: #625D55;" text="Input" />
-            <Hyperlink layoutX="230.0" layoutY="511.0" prefHeight="29.0" prefWidth="131.0" text="Forgot Password?" />
-            <Label layoutX="50.0" layoutY="510.0" prefHeight="21.0" prefWidth="80.0" text="Sign In" textFill="#3c3535">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Label>
-            <JFXButton layoutX="7.0" layoutY="455.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="147.0" style="-fx-background-color: #BCB08D;" text="SIGN UP" />
-            <Label fx:id="badPassword" layoutX="53.0" layoutY="183.0" prefHeight="21.0" prefWidth="288.0" style="-fx-background-color: #786161;" />
+            <JFXTextField fx:id="email" focusColor="WHITE" layoutY="207.0" prefHeight="31.0" prefWidth="217.0" promptText="Email" style="-fx-background-color: #6acc89;" unFocusColor="#7c7c7c" AnchorPane.bottomAnchor="346.0" AnchorPane.rightAnchor="165.0" />
+            <JFXPasswordField fx:id="password" focusColor="WHITE" layoutX="99.0" layoutY="245.0" prefHeight="31.0" prefWidth="250.0" promptText="Password" style="-fx-background-color: #6acc89;" unFocusColor="#7a7a7a" AnchorPane.bottomAnchor="308.0" AnchorPane.rightAnchor="6.0" />
+            <JFXButton fx:id="input" layoutX="14.0" layoutY="314.0" mnemonicParsing="false" onAction="#requestDB" prefHeight="51.0" prefWidth="271.0" style="-fx-background-color: #E8F8EF;" text="Sign in" />
+            <Label fx:id="badPassword" layoutX="112.0" layoutY="161.0" prefHeight="31.0" prefWidth="271.0" style="-fx-background-color: #6acc89;" underline="true" />
+            <JFXButton layoutX="183.0" layoutY="378.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="180.0" style="-fx-background-color: #E8F8EF;" text="Sign up" />
          </children>
       </AnchorPane>
    </children>
